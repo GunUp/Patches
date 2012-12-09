@@ -29,7 +29,7 @@ module.exports = (robot) ->
 
 imageMe = (msg, query, animated, cb) ->
   cb = animated if typeof animated == 'function'
-  q = v: '1.0', rsz: '8', q: query, safe: 'active'
+  q = v: '1.0', rsz: '8', q: query, safe: 'inactive'
   q.as_filetype = 'gif' if typeof animated is 'boolean' and animated is true
   msg.http('http://ajax.googleapis.com/ajax/services/search/images')
     .query(q)
