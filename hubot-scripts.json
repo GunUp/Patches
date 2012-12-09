@@ -3,5 +3,10 @@
   "chuck-norris.coffee",
   "drupalorg.coffee", 
   "tweet.coffee", 
-  "shipit.coffee"
+  "shipit.coffee",
+  "pomodoro.coffee",
+  "rageface.coffee",
+  "rally.coffee",
+  "points.coffee",
+  "ascii.coffee"
 ]
